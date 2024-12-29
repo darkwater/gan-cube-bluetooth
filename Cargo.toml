@@ -1,0 +1,15 @@
+[package]
+name = "gan-cube-bluetooth"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+aes         = "0.8.4"
+bitvec      = "1.0.1"
+btleplug    = "0.11.7"
+cbc         = "0.1.2"
+futures     = "0.3"
+pin-project = "1.1.7"
+rubikmaster = "0.6.0"
+tokio       = { version = "1", features = ["rt-multi-thread", "macros"] }
+uuid        = "1.11.0"
